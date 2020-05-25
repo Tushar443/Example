@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(255, 0, 242);
+    color:greenyellow;
+}
+a{
+    color:aqua;
+}
+.c1 li 
+{
+    display:inline;
+}  

@@ -1,8 +1,17 @@
 <html>
     <head>
+        
         <title>Profile</title>
     </head>
     <body>
+        <%-include('Header');-%>      
         <h1>Welcome Mr. <%= name%></h1>
+        <h3>Email Adress:- <%= data.email%></h3>
+        <h3>Address :- <%= data.Address%></h3>
+        <ul>
+            <%data.Skills.forEach(function(item){ %>
+                <li><%= item%></li>
+            <%})%>
+        </ul>
     </body>
     </html>

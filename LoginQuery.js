@@ -7,17 +7,11 @@ const app=express();
 app.use('/views/Common_CSS',express.static('views/Common_CSS'))
 
 app.set('view engine','ejs');
-app.get('/profile/:name',function(req,res){
-   // console.log(req.params.name);
-   data ={email:'Tusharmoret33@gamil.com',Address:'Mumbai',Skills:['Node.js','JavaScript','Java',
-   'CPP','Data Structure']};
-    res.render('profile',{name:req.params.name});
-   
-});
 app.get('/',function(req,res){
     res.render('Home');
 });
 app.get('/Login',function(req,res){
+    console.log(req.query);
     res.render('Login');
 });
 app.listen(5000);
