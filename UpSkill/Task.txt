@@ -1,0 +1,52 @@
+Q-1==>  -Node.js is a run-time environment which includes everything you need to execute a program written 
+         in Javascript.
+        -It is used for running scripts on server to render content before it is delivered to a web browser.
+        -Download node.js and NPM(Node Package Manager) from google and for check version use "node -v" this
+         command.
+        -You can also install by using "npm install" command in your node.js terminal.
+
+Q-2==>  -nvm(Node Version Manager) is a tool that allows you to download and install Node.js.
+        -Check if you have it installed via "nvm --version" or "nvm -v".
+        -npm(Node Package Manager) is a tool that allows you to install Javascript Packages.
+        -Check if you installed via "node --version"  or "node -v".
+        -npm comes with Node.js so if you have node installed you most likely have npm installed as well.
+        -You do not need nvm unless you want to keep multiple version of Node.js installed on your system.
+
+Q-3==>  -g is the global install
+        -Install globally if the package provides command-line tools
+        -Install globally and locally if both use-cases apply
+        -For Locally ==>  npm install Package_name
+        -For Globally ==> npm install -g Package_name
+
+Q-4==>  -Most of the software you use releases new versions often, usually identified by an associated version
+         number.
+        -The system is called ‘semantic versioning’ and it enables you to track development progress.
+        -Semantic Versioning is a 3-component number in the format of X.Y.Z, where :
+            X stands for a major version.
+            Y stands for a minor version.
+            Z stands for a patch.
+            For example :- 5.3.0
+
+Q-5==> When you add bold, italics, numbered lists, bullet points, headings, and so on to text,
+       you’re “formatting” it.
+       Markdown is a syntax—or, set of rules—that formats text on web pages.
+         -Headers 
+            # This is an H1  == More important it is like h1 tag in HTML 
+            ## This is an H2 ==less important than above
+            ###### This is an H6 ==normal its like a h6 tag in HTML
+
+        -Bullet Points
+            * Red
+            * Green
+            * Blue
+
+        -Numbered Lists
+            1. Bird
+            2. McHale
+            3. Parish
+
+        -Emphasis
+            Welcome to the **World** -it will bold the World word. 
+            Welcome to the *World*  - it will write in italic font.
+            ***Welcome to the World*** -it will write sentence in bold as well as italic.
+
